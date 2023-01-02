@@ -1,0 +1,4 @@
+﻿  p39.c
+D:\2312 최혜민\cospro-c-practice\p27\p39\p39.c(9,29): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char [6][20]'과(와) 다릅니다.
+D:\2312 최혜민\cospro-c-practice\p27\p39\p39.c(9,25): warning C4024: 'strlen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  p39.vcxproj -> D:\2312 최혜민\cospro-c-practice\p27\x64\Debug\p39.exe
