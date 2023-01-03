@@ -2,6 +2,7 @@
 
 int solution(int data[], int data_len) {
 	double total = 0;
+
 	for (int i = 0; i < data_len; ++i)
 		total += data[i];
 	
