@@ -1,0 +1,4 @@
+﻿  k-num.c
+D:\2312 최혜민\cospro-c-practice\k--num\k-num.c(11,12): warning C4047: 'return': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+D:\2312 최혜민\cospro-c-practice\k--num\k-num.c(29,23): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+  k--num.vcxproj -> D:\2312 최혜민\cospro-c-practice\x64\Debug\k-num.exe
