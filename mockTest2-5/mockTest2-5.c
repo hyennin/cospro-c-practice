@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int* func_a(int arr[], int arr_len) {
 	int* counter = (int*)malloc(sizeof(int) * 1001);
+
 	for (int i = 0; i < 1001; i++)
 		counter[i] = 0;
 
@@ -13,7 +15,8 @@ int* func_a(int arr[], int arr_len) {
 }
 
 int func_b(int arr[], int arr_len) {
-	int ret = 0; 
+	int ret = 0;
+
 	for (int i = 0; i < arr_len; i++) {
 		if (ret < arr[i]) ret = arr[i];
 	}
@@ -22,7 +25,8 @@ int func_b(int arr[], int arr_len) {
 }
 
 int func_c(int arr[], int arr_len) {
-	int ret = 1001; 
+	int ret = 1001;
+
 	for (int i = 0; i < arr_len; i++) {
 		if (arr[i] != 0 && ret > arr[i]) ret = arr[i];
 	}
@@ -43,4 +47,4 @@ void main() {
 	int arr_len = 9;
 
 	printf("%d\n", solution(arr, arr_len));
-}		
+}

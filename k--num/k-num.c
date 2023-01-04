@@ -35,7 +35,7 @@ int solution(int arr[][4], int arr_len, int n, int k) {
 }
 
 void main() {
-	int arr[4][4] = { {5, 121, 4, 31}, {24, 13, 11, 2}, {43, 44, 19, 26}, {33, 65, 20, 21} };
+	int arr[4][4] = { {5, 12, 4, 31}, {24, 13, 11, 2}, {43, 44, 19, 26}, {33, 65, 20, 21} };
 	int arr_len = 4, n = 4, k = 3;
 
 	printf("%d\n", solution(arr, arr_len, n, k));
