@@ -7,6 +7,8 @@ int solution(int price, char rank) {
 	if (strcmp(rank, "S") == 0) answer = price * 0.95;
 	if (strcmp(rank, "G") == 0) answer = price * 0.9;
 	if (strcmp(rank, "V") == 0) answer = price * 0.85;
+
+	return answer;
 }
 
 void main() {
